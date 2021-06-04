@@ -1,5 +1,5 @@
 import { Fragment, useState } from 'react';
-// import { sum } from './utils';
+// import { sum } from '../utils';
 
 let sum;
 import('../utils').then((obj) => {
@@ -21,4 +21,3 @@ export function Calc() {
 		</Fragment>
 	);
 }
-
